@@ -95,7 +95,7 @@ __※完成イメージ__
 
 2-5.TestAddinButton.cs がプロジェクトに追加され、Config.daml の中身が更新されていることを確認してください。
 
-<img src="./img/09_TestAddinButton.png" width="600px"></br>
+<img src="./img/09_TestAddInButton.png" width="600px"></br>
 
 <img src="./img/10_damlChanged.png" width="600px">
 
@@ -193,7 +193,7 @@ protected async override void OnClick()
 #### 2.ドッキング ウインドウにボタンを配置（View(XAML) の編集）
 
 2-1.TestAddinDockpane.xaml を開いてください。</br>
-<img src="./img/17_TestAddinDockpane.png" width="600px">
+<img src="./img/17_TestAddInDockpane.png" width="600px">
 
 2-2.ツールボックスでボタンを選択し、以下のように配置してください。</br>
 <img src="./img/18_ToolBoxButton.png" width="350px"></br>
