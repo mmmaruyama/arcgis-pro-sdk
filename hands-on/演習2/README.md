@@ -65,7 +65,7 @@ __※完成イメージ__
 
 1-4.プロジェクト名を「Exercise2」に変更し [作成] をクリックしてください。
 
-<img src="./img/05_AddInProject.png" width="600px">
+<img src="./img/05_AddinProject.png" width="600px">
 
 #### 2.マップ ツール作成
 2-1.Config.daml を開いて中身を確認してください。
