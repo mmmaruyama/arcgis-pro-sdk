@@ -17,7 +17,7 @@
 
 __※完成イメージ__
 
-<img src="./img/01_imageA.gif" width="600px">
+<img src="./img/01_imageA.gif" width="800px">
 
 ### 3-b. 作図ツールの作成
 
@@ -36,7 +36,7 @@ __※完成イメージ__
 
 __※完成イメージ__
 
-<img src="./img/02_imageB.gif" width="600px">
+<img src="./img/02_imageB.gif" width="800px">
 
 ## 演習解答
 <!--GitHub更新時、リンク更新-->
@@ -55,20 +55,20 @@ __※完成イメージ__
 
 1-2.[新しいプロジェクトの作成] をクリックしてください。
 
-<img src="./img/03_AddInNewProject.png" width="400px">
+<img src="./img/03_AddInNewProject.png" width="600px">
 
 1-3.プロジェクトの種類に [ArcGIS Pro SDK] を設定し、[ArcGIS Pro モジュール アドイン] を選択して [次へ] をクリックしてください。
 
-<img src="./img/04_AddInTemplate.png" width="400px">
+<img src="./img/04_AddInTemplate.png" width="600px">
 
 1-4.プロジェクト名を「Exercise3」に変更し [作成] をクリックしてください。
 
-<img src="./img/05_AddInProject.png" width="400px">
+<img src="./img/05_AddInProject.png" width="600px">
 
 #### 2.ボタン作成
 2-1.Config.daml を開いて中身を確認してください。
 
-<img src="./img/06_daml.png" width="400px">
+<img src="./img/06_daml.png" width="600px">
 
 2-2.Config.daml の \<group> 要素の caption を 以下のように「Exercise3」に変更してください。
 
@@ -86,12 +86,12 @@ __※完成イメージ__
 
 2-3.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_NewItem.png" width="400px">
+<img src="./img/07_NewItem.png" width="500px">
 
 2-4.[ArcGIS Pro Add-ins] の [ArcGIS Pro ボタン] を選択してください。
 ファイル名を「SelectLayerByAttribute.cs」に変更し [追加] をクリックしてください。
 
-<img src="./img/08_SelectLayerByAttribute.png" width="400px">
+<img src="./img/08_SelectLayerByAttribute.png" width="600px">
 
 2-5.Config.damlの \<button> 要素の caption を 以下のように「属性検索」に変更してください。
 
@@ -169,15 +169,15 @@ protected override void OnClick()
 
 <font color="Red">__※ArcGIS Pro 2.8 以上を利用している場合は、プラットフォーム ターゲットを x64 に設定してビルドしてください。__</font>
 
-<img src="./img/09_AddInBuild.png" width="300px">
+<img src="./img/09_AddInBuild.png" width="400px">
 
 4-2.[開始] ボタンをクリックし、デバッグを実行します。
 
-<img src="./img/10_AddInStartDebug.png" width="300px">
+<img src="./img/10_AddInStartDebug.png" width="400px">
 
 4-3.ArcGIS Pro が起動します。起動後 [別のプロジェクトを開く] をクリックし、事前にダウンロードしていただいたハンズオン データに格納されている「Sample.aprx」を開いてください。
 
-<img src="./img/11_AnotherProject.png" width="300px">
+<img src="./img/11_AnotherProject.png" width="350px">
 
 <!--GitHub更新時、リンク更新-->
 __※ダウンロードされていない方は [Sample.zip](https://github.com/EsriJapan/workshops/raw/master/20211001_arcgis-pro-sdk-hands-on/hands-on/%E6%BC%94%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF/Sample.zip) をダウンロードしてください__
@@ -186,11 +186,11 @@ __※ダウンロードされていない方は [Sample.zip](https://github.com/
 
 4-5.以下のようなメッセージ ボックスが出力されることを確認してください。
 
-<img src="./img/12_Yokosuka.png" width="400px">
+<img src="./img/12_Yokosuka.png" width="600px">
 
 4-6.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/13_AddInStopDebug.png" width="300px">
+<img src="./img/13_AddInStopDebug.png" width="400px">
 
 ## 3-b. 作図ツールの作成
 
@@ -204,12 +204,12 @@ __※ダウンロードされていない方は [Sample.zip](https://github.com/
 #### 1.作図ツール作成
 1-1.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_NewItem.png" width="400px">
+<img src="./img/07_NewItem.png" width="500px">
 
 1-2.[ArcGIS Pro Add-ins] の [ArcGIS Pro 作図ツール] を選択してください。
 また、ファイル名を「EditTool.cs」に変更し [追加] をクリックしてください。
 
-<img src="./img/14_EditTool.png" width="400px">
+<img src="./img/14_EditTool.png" width="600px">
 
 1-3.Config.daml を以下のように変更してください。
 
@@ -285,25 +285,25 @@ protected override Task<bool> OnSketchCompleteAsync(Geometry geometry)
 
 3-2.ArcGIS Pro が起動したら [編集] タブ > [作成] をクリックし、「フィーチャ作成」ウィンドウが表示されることを確認してください。
 
-<img src="./img/15_EditTab.png" width="300px"></br>
+<img src="./img/15_EditTab.png" width="500px"></br>
 
-<img src="./img/16_CreateFeaturePane.png" width="250px">
+<img src="./img/16_CreateFeaturePane.png" width="350px">
 
 3-4.[フィーチャ作成] ウィンドウ > [Japan] > [ポリゴン作図] (作成した作図ツール) をクリックし、ポリゴンを作図してください。
 
-<img src="./img/17_UseEditTool.png" width="300px"><br>
+<img src="./img/17_UseEditTool.png" width="400px"><br>
 
-<img src="./img/18_EditStart.png" width="300px">
+<img src="./img/18_EditStart.png" width="500px">
 
 3-5.ダブル クリックで作図を完了すると、作図した図形からバッファーがついたポリゴン (属性付き) が作成されることを確認してください。
 
-<img src="./img/19_EditEnd.png" width="300px"></br>
+<img src="./img/19_EditEnd.png" width="500px"></br>
 
-<img src="./img/20_Attribute.png" width="250px">
+<img src="./img/20_Attribute.png" width="350px">
 
 3-6.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/13_AddInStopDebug.png" width="300px">
+<img src="./img/13_AddInStopDebug.png" width="400px">
 
 3-7.(オプション) Windows エクスプローラーを起動し、"C:\Users\<ユーザー名>\Documents\ArcGIS\AddIns\ArcGISPro"
  に移動してください。

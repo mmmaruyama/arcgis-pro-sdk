@@ -18,7 +18,7 @@
 
 __※完成イメージ__
 
- <img src="./img/01_imageA.gif" width="600px">
+ <img src="./img/01_imageA.gif" width="800px">
 
 ### 1-b. ドッキング ウインドウの作成
 
@@ -36,7 +36,7 @@ __※完成イメージ__
 
  __※完成イメージ__
 
- <img src="./img/02_imageB.gif" width="600px">
+ <img src="./img/02_imageB.gif" width="800px">
 
 ## 演習解答
 <!--GitHub更新時リンク更新-->
@@ -55,20 +55,20 @@ __※完成イメージ__
 
 1-2.[新しいプロジェクトの作成] をクリックしてください。
 
-<img src="./img/03_AddInNewProject.png" width="400px">
+<img src="./img/03_AddInNewProject.png" width="600px">
 
 1-3.プロジェクトの種類に [ArcGIS Pro SDK] を設定し、[ArcGIS Pro モジュール アドイン] を選択して [次へ] をクリックしてください。
 
-<img src="./img/04_AddInTemplate.png" width="400px">
+<img src="./img/04_AddInTemplate.png" width="600px">
 
 1-4.プロジェクト名を「Exercise1」に変更し [作成] をクリックしてください。
 
-<img src="./img/05_AddInProject.png" width="400px">
+<img src="./img/05_AddInProject.png" width="600px">
 
 #### 2.ボタン作成
 2-1.Config.daml を開いて中身を確認してください。
 
-<img src="./img/06_daml.png" width="400px">
+<img src="./img/06_daml.png" width="600px">
 
 2-2.Config.daml の \<group> 要素の caption を 以下のように「Exercise1」に変更してください。
 
@@ -86,18 +86,18 @@ __※完成イメージ__
 
 2-3.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_AddInButton.png" width="400px">
+<img src="./img/07_AddInButton.png" width="500px">
 
 2-4.[ArcGIS Pro Add-ins] の [ArcGIS Pro ボタン] を選択してください。
 また、ファイル名を「TestAddinButton.cs」に変更し [追加] をクリックしてください。
 
-<img src="./img/08_AddInButtonAdd.png" width="400px">
+<img src="./img/08_AddInButtonAdd.png" width="600px">
 
 2-5.TestAddinButton.cs がプロジェクトに追加され、Config.daml の中身が更新されていることを確認してください。
 
-<img src="./img/09_TestAddinButton.png" width="400px"></br>
+<img src="./img/09_TestAddinButton.png" width="600px"></br>
 
-<img src="./img/10_damlChanged.png" width="400px">
+<img src="./img/10_damlChanged.png" width="600px">
 
 2-6.Config.daml の \<button> 要素の caption を 以下のように「アドイン ボタン」に変更してください。
 
@@ -140,15 +140,15 @@ protected async override void OnClick()
 
 <font color="Red">__※ArcGIS Pro 2.8 以上を利用している場合は、プラットフォーム ターゲットを x64 に設定してビルドしてください。__</font>
 
-<img src="./img/11_AddInBuild.png" width="300px">
+<img src="./img/11_AddInBuild.png" width="400px">
 
 4-2.[開始] ボタンをクリックし、デバッグを実行します。
 
-<img src="./img/12_AddInStartDebug.png" width="300px">
+<img src="./img/12_AddInStartDebug.png" width="400px">
 
 4-3.ArcGIS Pro が起動します。起動後 [別のプロジェクトを開く] をクリックし、事前にダウンロードしていただいたハンズオン データに格納されている「Sample.aprx」を開いてください。
 
-<img src="./img/13_AnotherProject.png" width="250px"></br>
+<img src="./img/13_AnotherProject.png" width="350px"></br>
 
  <!--GitHub更新時リンク更新-->
  __※ダウンロードされていない方は [Sample.zip](https://github.com/EsriJapan/workshops/raw/master/20211001_arcgis-pro-sdk-hands-on/hands-on/%E6%BC%94%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF/Sample.zip) をダウンロードしてください__
@@ -157,11 +157,11 @@ protected async override void OnClick()
 
 4-5.神奈川県のフィーチャが選択され、そこにズームします。
 
-<img src="./img/14_kanagawa.png" width="400px">
+<img src="./img/14_kanagawa.png" width="600px">
 
 4-6.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/15_AddInStopDebug.png" width="300px">
+<img src="./img/15_AddInStopDebug.png" width="400px">
 
 ## 1-b. ドッキング ウインドウの作成
 
@@ -176,11 +176,11 @@ protected async override void OnClick()
 #### 1.ドッキング ウインドウ作成
 1-1.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_AddInButton.png" width="400px">
+<img src="./img/07_AddInButton.png" width="500px">
 
 1-2.[ArcGIS Pro Add-ins] の [ArcGIS Pro ドッキング ウインドウ] を選択してください。ファイル名を「TestAddinDockpane.xaml」に変更し [追加] をクリックしてください。
 
-<img src="./img/16_AddInDockpaneAdd.png" width="400px">
+<img src="./img/16_AddInDockpaneAdd.png" width="600px">
 
 1-3.Config.damlの \<button> 要素 (id="Exercise1_TestAddinDockpane_ShowButton") の caption を 以下のように「ドッキング ウインドウ」に変更してください。
 
@@ -193,11 +193,11 @@ protected async override void OnClick()
 #### 2.ドッキング ウインドウにボタンを配置（View(XAML) の編集）
 
 2-1.TestAddinDockpane.xaml を開いてください。</br>
-<img src="./img/17_TestAddinDockpane.png" width="400px">
+<img src="./img/17_TestAddinDockpane.png" width="600px">
 
 2-2.ツールボックスでボタンを選択し、以下のように配置してください。</br>
-<img src="./img/18_ToolBoxButton.png" width="250px"></br>
-<img src="./img/19_XamlButton.png" width="400px">
+<img src="./img/18_ToolBoxButton.png" width="350px"></br>
+<img src="./img/19_XamlButton.png" width="600px">
 
 <br/>
 
@@ -240,7 +240,7 @@ private void HookButtonClick()
     });
 }
 ```
-<img src="./img/20_TestAddInDockpaneViweModel.png" width="400px">
+<img src="./img/20_TestAddInDockpaneViweModel.png" width="600px">
 
 **ポイント**
 - ズーム処理において、「1-a. アドイン ボタンの作成」の「3-3」で使用した ZoomToSelectedAsync メソッドは非同期処理 (Coarse-Grained Methods)、今回使用している ZoomToSelected メソッドは同期処理 (Fine-Grained Methods)。そのため、QueuedTask を使用する必要がある。
@@ -253,15 +253,15 @@ private void HookButtonClick()
 
 4-3.ドッキング ウインドウが起動したら、[Button] を押してください。</br>
 
-<img src="./img/21_Dockpane.png" width="250px">
+<img src="./img/21_Dockpane.png" width="350px">
 
 4-4.「Japan」レイヤーの全フィーチャが選択され、そこにズームします。
 
-<img src="./img/22_japan.png" width="400px">
+<img src="./img/22_japan.png" width="600px">
 
 4-5.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/15_AddInStopDebug.png" width="300px">
+<img src="./img/15_AddInStopDebug.png" width="400px">
 
 4-6.(オプション) Windows エクスプローラーを起動し、"C:\Users\<ユーザー名>\Documents\ArcGIS\AddIns\ArcGISPro"
  に移動してください。

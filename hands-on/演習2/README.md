@@ -19,7 +19,7 @@
 
 __※完成イメージ__
 
-<img src="./img/01_imageA.gif" width="600px">
+<img src="./img/01_imageA.gif" width="800px">
 
 ### 2-b. レイヤーに等級色レンダラーを割り当てる
 
@@ -38,7 +38,7 @@ __※完成イメージ__
 
 __※完成イメージ__
 
-<img src="./img/02_imageB.gif" width="600px">
+<img src="./img/02_imageB.gif" width="800px">
 
 ## 演習解答
 <!--GitHub更新時リンク更新-->
@@ -57,20 +57,20 @@ __※完成イメージ__
 
 1-2.[新しいプロジェクトの作成] をクリックしてください。
 
-<img src="./img/03_AddInNewProject.png" width="400px">
+<img src="./img/03_AddInNewProject.png" width="600px">
 
 1-3.プロジェクトの種類に [ArcGIS Pro SDK] を設定し、[ArcGIS Pro モジュール アドイン] を選択して [次へ] をクリックしてください。
 
-<img src="./img/04_AddInTemplate.png" width="400px">
+<img src="./img/04_AddInTemplate.png" width="600px">
 
 1-4.プロジェクト名を「Exercise2」に変更し [作成] をクリックしてください。
 
-<img src="./img/05_AddInProject.png" width="400px">
+<img src="./img/05_AddInProject.png" width="600px">
 
 #### 2.マップ ツール作成
 2-1.Config.daml を開いて中身を確認してください。
 
-<img src="./img/06_daml.png" width="400px">
+<img src="./img/06_daml.png" width="600px">
 
 2-2.Config.daml の \<group> 要素の caption を 以下のように「Exercise2」に変更してください。
 
@@ -88,12 +88,12 @@ __※完成イメージ__
 
 2-3.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_NewItem.png" width="400px">
+<img src="./img/07_NewItem.png" width="500px">
 
 2-4.[ArcGIS Pro Add-ins] の [ArcGIS Pro マップ ツール] を選択してください。
 また、ファイル名を「NewMapTool.cs」に変更し [追加] をクリックしてください。
 
-<img src="./img/08_NewMapTool.png" width="400px">
+<img src="./img/08_NewMapTool.png" width="600px">
 
 2-5.Config.daml の \<tool> 要素の caption を 以下のように「マップ ツール」に変更してください。
 
@@ -166,15 +166,15 @@ protected override Task<bool> OnSketchCompleteAsync(Geometry geometry)
 
 <font color="Red">__※ArcGIS Pro 2.8 以上を利用している場合は、プラットフォーム ターゲットを x64 に設定してビルドしてください。__</font>
 
-<img src="./img/09_AddInBuild.png" width="300px">
+<img src="./img/09_AddInBuild.png" width="400px">
 
 4-2.[開始] ボタンをクリックし、デバッグを実行します。
 
-<img src="./img/10_AddInStartDebug.png" width="300px">
+<img src="./img/10_AddInStartDebug.png" width="400px">
 
 4-3.ArcGIS Pro が起動します。起動後 [別のプロジェクトを開く] をクリックし、事前にダウンロードしていただいたハンズオン データに格納されている「Sample.aprx」を開いてください。
 
-<img src="./img/11_AnotherProject.png" width="300px">
+<img src="./img/11_AnotherProject.png" width="350px">
 
 <!--GItHub更新時、リンク更新-->
 __※ダウンロードされていない方は [Sample.zip](https://github.com/EsriJapan/workshops/raw/master/20211001_arcgis-pro-sdk-hands-on/hands-on/%E6%BC%94%E7%BF%92%E3%83%87%E3%83%BC%E3%82%BF/Sample.zip) をダウンロードしてください__
@@ -183,15 +183,15 @@ __※ダウンロードされていない方は [Sample.zip](https://github.com/
 
 4-5.地図上の任意の範囲でポリゴンをスケッチしてください。
 
-<img src="./img/12_SketchPolygon.png" width="400px">
+<img src="./img/12_SketchPolygon.png" width="600px">
 
 4-6.範囲内にあるフィーチャにズームし、メッセージ出力、フィーチャのフラッシュがされることを確認してください。
 
-<img src="./img/13_zoom.png" width="400px">
+<img src="./img/13_zoom.png" width="600px">
 
 4-7.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/14_AddInStopDebug.png" width="300px">
+<img src="./img/14_AddInStopDebug.png" width="400px">
 
 ## 2-b. レイヤーに等級色レンダラーを割り当てる
 
@@ -205,12 +205,12 @@ __※ダウンロードされていない方は [Sample.zip](https://github.com/
 #### 1.ボタン作成
 1-1.プロジェクトを右クリック > [追加] > [新しい項目] をクリックしてください。
 
-<img src="./img/07_NewItem.png" width="400px">
+<img src="./img/07_NewItem.png" width="500px">
 
 1-2.[ArcGIS Pro Add-ins] の [ArcGIS Pro ボタン] を選択してください。  
 また、ファイル名を「NewAddinButton.cs」に変更し [追加] をクリックしてください。
 
-<img src="./img/15_AddInButtonAdd.png" width="400px">
+<img src="./img/15_AddInButtonAdd.png" width="600px">
 
 1-3.Config.daml の \<button> 要素 (id="Exercise2_NewAddinButton") の caption を以下のように「レンダリング」に変更してください。
 
@@ -290,11 +290,11 @@ protected override void OnClick()
 
 3-3.「Japan」レイヤーが等級色でレンダリングされることを確認してください。
 
-<img src="./img/16_GraduateColor.png" width="400px">
+<img src="./img/16_GraduateColor.png" width="600px">
 
 3-4.Visual Studio 上で [デバッグの停止] をクリックしてください。
 
-<img src="./img/14_AddInStopDebug.png" width="300px">
+<img src="./img/14_AddInStopDebug.png" width="400px">
 
 3-5.(オプション) Windows エクスプローラーを起動し、"C:\Users\<ユーザー名>\Documents\ArcGIS\AddIns\ArcGISPro"
  に移動してください。
