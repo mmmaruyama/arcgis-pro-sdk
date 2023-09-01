@@ -1,4 +1,4 @@
-# パートナーカンファレンス：はじめてのアドイン作成ハンズオン
+# ArcGIS Pro SDK：はじめてのアドイン作成ハンズオン
 
 ## ハンズオンの内容
 このハンズオンでは、ArcGIS Pro SDK 初心者向けに、ArcGIS Pro に新規ボタンを作成します。
@@ -26,7 +26,7 @@ ArcGIS Pro SDK のテンプレートを使用して、Visual Studio プロジェ
 Visual Studio のデバッガーでアドインを確認します。
 
 
-# 手順
+## 手順
 ## プロジェクトの作成
 1. Visual Studio を起動して、[新しいプロジェクトの作成] を選択します。
 
@@ -42,7 +42,7 @@ Visual Studio のデバッガーでアドインを確認します。
 
 4. 新しいプロジェクトが作成されます。プロジェクトには以下の内容が含まれていることを確認できます。
 
-    <img src="image/NewContent.png" width="70%">
+    <img src="image/NewContent.png" width="50%">
 
 
     デフォルトでは Config.daml ファイルが Visual Studio 内で開きます。Module1.cs ファイルにはアドイン モジュールのコードが含まれています。コードは以下のようになっています。
@@ -69,11 +69,11 @@ Visual Studio のデバッガーでアドインを確認します。
 
     ```
 
-5. プロジェクトをコンパイルしてビルドします。出力ウィンドウにエラーが表示される場合は、ArcGIS Pro アプリケーションと ArcGIS Pro SDK for .NET が正しくインストールされていることを確認してください。プロジェクト テンプレートから生成されたファイルの構文を変更していない限り、コンパイル エラーは発生しないはずです。
+5. Visual Studio のメニューから [ビルド] ＞ [ソリューションのビルド] をクリックしプロジェクトをビルドします。出力ウィンドウにエラーが表示される場合は、ArcGIS Pro アプリケーションと ArcGIS Pro SDK for .NET が正しくインストールされていることを確認してください。プロジェクト テンプレートから生成されたファイルの構文を変更していない限り、コンパイル エラーは発生しないはずです。
 
-    <img src="image/AddInBuild.png" width="70%">
+    <img src="image/AddInBuild.png" width="50%">
 
-6. エクスプローラーを開き、`C:\Users\<ユーザー名>\Documents\ArcGIS\AddIns\ArcGISPro` フォルダに移動します。新しくコンパイルしたアドイン フォルダが作成されています。フォルダ名は、アドインのID (GUID) に対応しています。フォルダ内にアドインファイルが作成されていることが確認できます。
+6. エクスプローラーを開き、`C:\Users\<ユーザー名>\Documents\ArcGIS\AddIns\ArcGISPro` フォルダに移動します。新しくアドイン フォルダが作成されています。フォルダ名は、アドインのID (GUID) に対応しています。フォルダ内にアドイン ファイルが作成されていることが確認できます。
 
     ```xml
     <AddInInfo id="{3620585a-c921-4a53-b5ba-e273f66087c6}" ...
@@ -84,7 +84,7 @@ Visual Studio のデバッガーでアドインを確認します。
 ## ボタンの追加
 1. Visual Studio ソリューション エクスプローラーのプロジェクト タイトル(ProAppModule1) を右クリックし、プロジェクト コンテキスト メニューから[追加] > [新しい項目] を選択します。
 
-    <img src="image/AddNewItem.png" width="100%">
+    <img src="image/AddNewItem.png" width="70%">
 
 
 2. 新しい項目の追加 ダイアログ ボックスで、使用可能な ArcGIS Pro SDK アイテム テンプレートから ArcGIS Pro ボタン を選択します。デフォルトの名前 Button1.cs のままにして、[追加] をクリックします。
@@ -108,7 +108,7 @@ Visual Studio のデバッガーでアドインを確認します。
 
 4. アドインをビルドし、コンパイルします。
 
-    <img src="image/AddInBuild.png" width="70%">
+    <img src="image/AddInBuild.png" width="50%">
 
 ## アドインのテスト
 1. OnClick メソッドの余白にブレークポイントを設定し、Visual Studio デバッガーでアドインを実行します。
@@ -133,3 +133,11 @@ Visual Studio のデバッガーでアドインを確認します。
 5. [OK] をクリックし、デバッグを停止します。
 
     <img src="image/StopDebug.png" width="100%">
+
+
+## オプション
+早く終わった方は Esri が公開している [ArcGIS Pro SDK のサンプル](https://github.com/Esri/arcgis-pro-sdk-community-samples/tree/master)を自由に触ってみてください。各種サンプルの操作方法も記載されています。
+ソースコードとサンプルに必要なデータが公開されています。
+* [ソースコード](https://github.com/Esri/arcgis-pro-sdk-community-samples/archive/refs/tags/3.1.0.41834.zip)
+* [サンプル データ](https://github.com/Esri/arcgis-pro-sdk-community-samples/releases/download/3.1.0.41834/CommunitySampleData-09-30-2022.zip)
+
