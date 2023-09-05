@@ -58,7 +58,7 @@ Visual Studio のデバッガーでアドインを確認します。
         public static Module1 Current => _this ??= (Module1)FrameworkApplication.FindModule("ProAppModule1_Module");
     }
     ```
-    "ProAppModule1_Module" の文字列はモジュール ID です。Framework はこの ID を使用して、DAML ファイル内のモジュールを参照し、FrameworkApplication モジュールの FindModule メソッドで関連するモジュールのインスタンスを見つけます。
+    "ProAppModule1_Module" の文字列はモジュール ID です。この ID を使用して、DAML ファイル内のモジュールを参照しています。
 
     Config.daml ファイルでは、insertModule タグの id 属性が Module1.cs ファイル内の ID と一致し、className 属性がモジュールのクラス名と一致していることも確認できます。
 
