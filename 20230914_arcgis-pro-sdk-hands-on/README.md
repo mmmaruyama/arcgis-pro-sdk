@@ -91,7 +91,33 @@ Visual Studio のデバッガーでアドインを確認します。
 
     <img src="image/NewButton.png" width="100%">
 
-3. プロジェクトに追加された Button1.cs という新しいファイルが追加され、Button1.cs が開きます。次のコードを OnClick メソッドに入力してください。
+3. Config.daml を開き group タグの caption を以下のように「グループ1」に変更してください。
+    ```xml
+    <group id="ProAppModule1_Group1" caption="グループ1" appearsOnAddInTab="true">
+    ```
+    <img src="image/group.png" width="100%">
+
+    caption を設定することで ArcGIS Pro 上での表示を設定することができます。
+    <img src="image/group2.png" width="100%">
+
+4. Config.daml の button タグの caption も同様に「ボタン」に変更してください。
+    その次の行の tooltip タグの heading を「ツールチップ」に変更し、Tooltip text を「プロジェクト ファイルのパスを表示します。」と変更してください。
+    
+    ```xml
+    <button id="ProAppModule1_Button1" caption="ボタン" className="Button1" loadOnClick="true" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonBlue16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">プロジェクト ファイルのパスを表示します。<disabledText /></tooltip>
+        </button>
+    ```
+    <img src="image/button.png" width="100%">
+
+    button の caption も同様に ArcGIS Pro 上での表示を設定することができます。
+    tooltip はボタンにカーソルを合わせたときに表示される説明を設定することができます。
+
+    <img src="image/button2.png" width="100%">
+
+
+
+4. プロジェクトに追加された Button1.cs という新しいファイルが追加され、Button1.cs が開きます。次のコードを OnClick メソッドに入力してください。
 
     ```cs
     internal class Button1 : Button {
@@ -106,7 +132,7 @@ Visual Studio のデバッガーでアドインを確認します。
     }
     ```
 
-4. アドインをビルドし、コンパイルします。
+5. アドインをビルドし、コンパイルします。
 
     <img src="image/AddInBuild.png" width="50%">
 
