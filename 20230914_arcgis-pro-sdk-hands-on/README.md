@@ -14,7 +14,7 @@
 * Visual Studio 2022
 
 **前提条件:** 初めてアドインをビルドする前に、ArcGIS Pro と対応するバージョンの ArcGIS Pro SDK を開発用マシンにインストールする必要があります。本ハンズオンでは ArcGIS Pro/ArcGIS Pro SDK のバージョン 3.1 を使用します。それぞれのインストール方法の詳細については、下記のインストールガイドをご参照ください。
-* [ArcGIS Pro SDK for .NET インストールガイド](https://github.com/EsriJapan/arcgis-pro-sdk/wiki/ProGuide-Installation-and-Upgrade))
+* [ArcGIS Pro SDK for .NET インストールガイド](https://github.com/EsriJapan/arcgis-pro-sdk/wiki/ProGuide-Installation-and-Upgrade)
 * [ArcGIS Pro インストールガイド](https://doc.esrij.com/pro/get-started/setup/user/install/#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 
 ## ハンズオンの流れ
