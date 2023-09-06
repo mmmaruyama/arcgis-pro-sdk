@@ -167,3 +167,32 @@ Visual Studio のデバッガーでアドインを確認します。
 * [ソースコード](https://github.com/Esri/arcgis-pro-sdk-community-samples/archive/refs/tags/3.1.0.41834.zip)
 * [サンプル データ](https://github.com/Esri/arcgis-pro-sdk-community-samples/releases/download/3.1.0.41834/CommunitySampleData-09-30-2022.zip)
 
+
+### 例：ブックマークの作成
+https://github.com/EsriJapan/arcgis-pro-sdk-community-samples/tree/master/Framework/DockPaneBookmarkAdvanced
+
+1. [サンプル](https://github.com/Esri/arcgis-pro-sdk-community-samples/archive/refs/tags/3.1.0.41834.zip) をダウンロードし任意の場所に解凍してください。
+
+2. 解凍したフォルダ内の `\Framework\DockPaneBookmarkAdvanced\Advanced UI Demo.sln` を Visual Studio で開きます。
+
+3. [ビルド] > [ソリューションのビルド] をクリックしアドインをコンパイルします。
+    <img src="image/sample1.png" width="100%">
+
+4. Visual Studio デバッガーでアドインを実行します。
+    <img src="image/sample2.png" width="100%">
+
+5. ArcGIS Pro が開くので任意のプロジェクト ファイルか、新規のプロジェクト ファイルを開きます。
+
+6. アドインタブに Show Bookmarks ボタンが追加されているのでクリックすると ドックパネルが開きます。
+
+7. マップビューで新しくブックマークを作成したい任意の場所に移動し、ドックパネル下方の [New Bookmark] をクリックします。任意の名前を入力し OK をクリックします。
+    
+    <img src="image/sample3.png" width="100%">
+
+8. ドックパネルで [Get Maps] をクリックしてドロップダウンリストから [マップ] をクリックすると、作成したブックマークの一覧が表示されます。
+ブックマークをクリックすると、作成した位置に移動することができます。
+また、手順6、7 を繰り返し行うことでブックマークを複数作成することが可能です。
+    
+    <img src="image/sample4.png" width="50%">
+
+9. Visual Studio でデバッグを停止します。
