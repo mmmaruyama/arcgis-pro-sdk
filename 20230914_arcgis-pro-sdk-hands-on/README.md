@@ -7,6 +7,9 @@
 
 このハンズオンは Esri が公開している「[ProGuide Build your first add in](https://github.com/EsriJapan/arcgis-pro-sdk/wiki/ProGuide-Build-Your-First-Add-in)」を再編集したものです。
 
+完成イメージ
+<img src="image/NewProProject2.png" width="100%">
+
 ## 必要な環境
 
 * [ArcGIS Pro](https://pro.arcgis.com/ja/pro-app/latest/get-started/arcgis-pro-system-requirements.htm)
@@ -146,7 +149,7 @@ Visual Studio のデバッガーでアドインを確認します。
     <img src="image/NewProProject.png" width="100%">
 
 
-3. アドイン タブに追加されている Button1 をクリックします。
+3. アドイン タブに新しく追加された ボタン をクリックします。
 
     <img src="image/AddInTab.png" width="100%">
 
